@@ -4,11 +4,64 @@
    <meta charset="UTF-8">
    <title>Network-5G</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
 
    <script type="module" defer src="/javascript/main.js"></script>
    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+<header>
+   <div class="logo">
+      <a href="#"><img src="Resurs/IMG/logo-1.png" alt="logo-1"></a>
+   </div>
+   <div class="mobile-only-title-header">
+      <h2 class="mobile-only-title-header-h2">Мой дневник</h2>
+   </div>
+         <nav class="header-navigation">
+            <ul>
+            <li><a href="#">Понедельник</a></li>
+            <li><a href="#">Вторник</a></li>
+            <li><a href="#">Среда</a></li>
+            <li><a href="#">Четверг</a></li>
+            <li><a href="#">Пятница</a></li>
+            <li><a href="#">Суббота</a></li>
+            <li><a href="#">Воскресенье</a></li>
+            </ul>
+         </nav>
 
+   <!--Кнопка бургер-->
+   <div class="mobile-only-burger">
+      <a href="#" class="burger-menu_button">
+         <spun class="burger-menu_lines"></spun>
+      </a>
+      <nav class="burger-menu_nav">
+         <a href="#" class="burger-menu_link">Понедельник</a>
+         <a href="#" class="burger-menu_link">Вторник</a>
+         <a href="#" class="burger-menu_link">Среда</a>
+         <a href="#" class="burger-menu_link">Четверг</a>
+         <a href="#" class="burger-menu_link">Пятница</a>
+         <a href="#" class="burger-menu_link">Суббота</a>
+         <a href="#" class="burger-menu_link">Воскресенье</a>
+      </nav>
+      <div class="burger-menu_overlay"></div>
+   </div>
+</header>
+
+<section class="week-task-container">
+   <div class="week-todo-task">
+      <h3 class="week-task-h3">Задания на Неделю</h3>
+      <label>
+         <input type="text" class="task-input-week" placeholder="Добавить задачу">
+         <button onclick="addTask()" class="add-btn-week-todo">Добавить</button>
+      </label>
+      <ul id="taskListWeek"></ul>
+   </div>
+</section>
+
+   <footer>
+
+   </footer>
 </body>
 </html>
