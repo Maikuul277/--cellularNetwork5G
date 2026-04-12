@@ -27,7 +27,3 @@ function burgerMenu(selector) {
 burgerMenu('.mobile-only-burger');
 
 
-// Tod-добавление заданий
-// function addTask() {
-//     let input = document.querySelector()
-// }

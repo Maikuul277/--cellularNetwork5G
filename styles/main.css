@@ -29,21 +29,21 @@ header {
     float: left;
 
 }
-.header-navigation ul {
+.header__navigation ul {
     display: flex;
     justify-content: space-between;
     justify-items: center;
     list-style: none;
 
 }
-.header-navigation ul li a {
+.header__navigation ul li a {
     text-decoration: none;
-    color: #151010;
+    color: rgb(66, 41, 20);;
     font-size: 1.2em;
 }
 
 /* навигационная Кнопка бургер */
-.mobile-only-burger {
+.mobile__only__burger {
     display: none;
 }
 .burger-menu_button {
@@ -150,27 +150,28 @@ header {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.mobile-only-title-header {
+.mobile__only__title__header {
     display: none;
 }
-.mobile-only-title-header-h2 {
+.mobile__only__title__header__h2 {
     display: flex;
     justify-content: center;
     justify-items: center;
 }
 /*адаптация для телефонов*/
 @media screen and (max-width: 768px) {
-    .header-navigation {
+    .header__navigation {
         display: none;
     }
-    .mobile-only-burger {
+    .mobile__only__burger {
         display: block;
     }
-    .mobile-only-title-header {
+    .mobile__only__title__header {
         display: block;
     }
 
 }
-.week-task-h3 {
-    padding: 1em;
-}
+
+
+
+
