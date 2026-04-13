@@ -42,7 +42,7 @@
             padding-right: calc(
             var(--fieldInputPaddingX) * 2 + var(--fieldSearchInputIconSize)
             );
-            background-image: url("Resurs/icons/Icon-Search_black.svg");
+            background-image: url("/Resurs/IMG/Icon-Search_black.svg");
             background-position: calc(100% - var(--fieldInputPaddingX)) 50%;
             background-size: var(--fieldSearchInputIconSize);
             background-repeat: no-repeat;
